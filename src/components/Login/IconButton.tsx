@@ -8,16 +8,16 @@ const IconButton = (props: IconButtonProps) => {
       justifyContent="space-between"
       alignItems="center"
       direction="row"
-      width="75%"
+      width="90%"
       margin="0 auto"
       padding="10px 15px"
-      borderRadius="10px"
+      borderRadius="8px"
       style={{
         backgroundColor: props.backgroundColor,
       }}
     >
       <Icon src={props.src} alt={props.alt} width="30px" height="30px" />
-      <Typography>{props.text}</Typography>
+      <Typography fontWeight="bold">{props.text}</Typography>
       <Box width="30px" height="30px" />
     </Stack>
   );
